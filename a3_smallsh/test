@@ -1,0 +1,4 @@
+#!/bin/bash
+rm -f smallsh
+gcc smallsh.c -o smallsh
+./p3testscript smallsh
